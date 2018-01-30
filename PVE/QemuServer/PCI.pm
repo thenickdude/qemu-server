@@ -145,6 +145,10 @@ sub print_pcie_addr {
 	hostpci1 => { bus => "ich9-pcie-port-2", addr => 0 },
 	hostpci2 => { bus => "ich9-pcie-port-3", addr => 0 },
 	hostpci3 => { bus => "ich9-pcie-port-4", addr => 0 },
+	hostpci4 => { bus => "ich9-pcie-port-5", addr => 0 },
+	hostpci5 => { bus => "ich9-pcie-port-6", addr => 0 },
+	hostpci6 => { bus => "ich9-pcie-port-7", addr => 0 },
+	hostpci7 => { bus => "ich9-pcie-port-8", addr => 0 },
 	# win7 is picky about pcie assignments
 	hostpci0bus0 => { bus => "pcie.0", addr => 16 },
 	hostpci1bus0 => { bus => "pcie.0", addr => 17 },
